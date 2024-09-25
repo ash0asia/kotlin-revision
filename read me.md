@@ -108,3 +108,10 @@ In Kotlin, there's a faster way of doing this, by using a constructor.
 A constructor is like a special function, and it is defined by using two parantheses () after the class name. You can specify the properties inside of the parantheses (like passing parameters into a regular function) () this braket use
 You can also use functions inside a class, to perfom certain actions
 
+In Kotlin, it is possible to inherit class properties and functions from one class to another. We group the "inheritance concept" into two categories:
+
+subclass (child) - the class that inherits from another class
+superclass (parent) - the class being inherited from
+In the example below, MyChildClass (subclass) inherits the properties from the MyParentClass class (superclass)
+
+
