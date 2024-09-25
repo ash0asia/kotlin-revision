@@ -47,3 +47,64 @@ val y: Long = x.toLong()
 println(y)
 oerator 
 fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+
+String Templates/Interpolation  - $name to insert name value
+
+if else ladder -- 
+if (condition1) {
+  // block of code to be executed if condition1 is true
+} else if (condition2) {
+  // block of code to be executed if the condition1 is false and condition2 is true
+} else {
+  // block of code to be executed if the condition1 is false and condition2 is false
+
+when i place of if else for use multiple time- condition branches
+val day = 4
+
+val result = when (day) {
+  1 -> "Monday"
+  2 -> "Tuesday"
+  3 -> "Wednesday"
+  4 -> "Thursday"
+  5 -> "Friday"
+  6 -> "Saturday"
+  7 -> "Sunday"
+  else -> "Invalid day."
+}
+println(result)
+// Outputs "Thursday" (day 4)
+
+while (condition) {
+  // code block to be executed
+}
+
+do {
+  // code block to be executed
+}
+while (condition);
+do while run atleast one run 
+
+To create an array, use the arrayOf() function, and place the values in a comma-separated list inside it
+
+
+val cars = arrayOf("Volvo", "BMW", "Ford", "Mazda")
+
+With the for loop, you can also create ranges of values with ".."
+You can also use the in operator to check if a value exists in a range
+
+
+A function is a block of code which only runs when it is called.
+You can pass data, known as parameters, into a function.
+Functions are used to perform certain actions, and they are also known as methods.
+
+In the following example, myFunction() will print some text (the action), when it is called
+To create your own function, use the fun keyword, and write the name of the function, followed by parantheses ()
+
+There is also a shorter syntax for returning values. You can use the = operator instead of return without specifying the return type
+
+To create a class, use the class keyword, and specify the name of the class {} this bracket use 
+
+In Kotlin, there's a faster way of doing this, by using a constructor.
+A constructor is like a special function, and it is defined by using two parantheses () after the class name. You can specify the properties inside of the parantheses (like passing parameters into a regular function) () this braket use
+You can also use functions inside a class, to perfom certain actions
+
